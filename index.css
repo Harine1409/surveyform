@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+  /* background-color: rgb(238, 216, 216); */
+ font-family: 'Roboto', sans-serif;;
+ background-image:url(ofc.jpg);
+ 
+ 
+}
+.container{
+   width: 50%;
+   background-color:rgb(231, 225, 225) ;
+   margin: auto;
+   justify-content: center;
+    position:relative;
+    height: 800px;
+    border-radius: 5px;
+    
+    height: 100%;
+    align-content: flex-start;
+    border: 1px solid rgb(173, 169, 169);
+    
+}
+
+.maincontent{
+  padding-top: 20px;
+  display: flex;
+  justify-content :center;
+}
+.emailtext{
+  width: 300px;
+}
+h3{
+  font-size: small;
+}
+
+
+th{
+  font-size: smalls;
+  padding: 15px;
+
+}
+table{
+  border-spacing: 0px;
+  
+}
+td{
+  text-align: center;
+  padding: 7px;
+
+}
+tr{
+  font-size: small;
+  background-color:rgb(230, 225, 222);
+  
+}
+.firstrow{
+  background-color: #ffffff
+}
+.thirdrow{
+  background-color: #ffffff
+}
+.t2{
+ place-content: center;
+ width: 100%;
+}
+.suggestionbox{
+  width: 100%;
+  height: 150px;
+  text-align: justify;
+}
+button{
+  padding-top: 2px;
+  padding-bottom: 1px;
+  background-color: rgba(88, 86, 87, 0.726);
+  width: 80px;
+  height: 30px;
+  border-radius: 10px;
+  font-size: 15px;
+  color: rgb(5, 5, 5);
+  border: none;
+}
+#reset{
+  padding-top: 2px;
+  padding-bottom: 1px;
+  background-color: rgba(88, 86, 87, 0.726);
+  width: 80px;
+  height: 30px;
+  border-radius: 10px;
+  font-size: 15px;
+  color: rgb(5, 5, 5);
+  font-weight:bold ;
+  border: none;
+}
